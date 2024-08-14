@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <title>StarWars</title>
+  </head>
+  <body id="home">
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #020202"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/star_wars_logo.png" alt="Bootstrap" width="100"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+            <a
+              class="nav-link"
+              href="#movie"
+              style="padding-left: 20px; padding-right: 20px"
+              >Movie</a
+            >
+            <a class="nav-link" href="#about">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- jumbotron start -->
+    <section class="jumbotron">
+      <h1 class="display-4" style="color: #fff">Hello padawan</h1>
+      <br />
+      <p class="lead" style="color: #fff">
+        Welcome to a galaxy far, far away. Here you will find <br />
+        a variety of movie and series by the Star Wars saga. <br />Whether you
+        are a Jedi, Sith, Mandalorian, or just a fan,<br />
+        you will find something suitable for you here. <br />Explore our site
+        and discover the power within you.
+      </p>
+      <br />
+      <a class="btn btn-primary btn-lg" href="#movie" role="button"
+        >Start Journey</a
+      >
+    </section>
+    <!-- jumbotron end -->
+
+    <!-- movie start -->
+    <section id="movie" style="background-color: #020202; color: #fff">
+      <div class="container" style="padding-top: 50px; padding-bottom: 100px">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h2 style="font-weight: bold">Best Movies</h2>
+            <p>
+              Star Wars is an American epic space opera multimedia franchise
+              created by George Lucas, <br />which began with the eponymous 1977
+              film and quickly became a worldwide pop culture phenomenon.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img
+              src="img/the_mandalorian.jpg"
+              alt="the_mandalorian"
+              class="rounded"
+              width="200px"
+            />
+            <br /><br />
+            <h4 class="fs-5">The Mandalorian</h4>
+            <p>2023 | 3 Season | 13+</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="img/obi_wan_kenobi.jpg"
+              alt="obi_wan_kenobi"
+              class="rounded"
+              width="200px"
+            />
+            <br /><br />
+            <h4 class="fs-5">Obi Wan Kenobi</h4>
+            <p>2022 | 1 Season | 13+</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="img/tyler-wetta-ahsoka24x36v2.jpg"
+              alt="ahsokaposter"
+              class="rounded"
+              width="198px"
+            />
+            <br /><br />
+            <h4 class="fs-5">Ashoka</h4>
+            <p>2023 | 1 Season | 13+</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="img/starwarsandor.jpg"
+              alt="starwarsandor"
+              class="rounded"
+              width="200px"
+            />
+            <br /><br />
+            <h4 class="fs-5">Andor</h4>
+            <p>2022 | 1 Season | 17+</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- movie end -->
+    <!-- about start -->
+    <section id="about" style="background-color: #020202; color: #fff">
+      <div class="container" style="padding-top: 100px; padding-bottom: 130px">
+        <div class="row text-center">
+          <div class="col-md">
+            <h2>About Creator</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/a-t-george-lucas-star-wars.jpg"
+              alt="George"
+              width="600px"
+              class="rounded"
+            />
+          </div>
+          <div class="col-md-6">
+            <p class="fs-5">
+              <span style="font-weight: bold"> George Walton Lucas Jr.</span>
+              (born May 14, 1944) is an American filmmaker. Lucas is best known
+              for creating the Star Wars and Indiana Jones franchises and
+              founding Lucasfilm, LucasArts, Industrial Light & Magic, and THX.
+              He served as chairman of Lucasfilm before selling it to The Walt
+              Disney Company in 2012. Lucas is one of history's most financially
+              successful filmmakers and has been nominated for four Academy
+              Awards. Lucas personally directed or conceived 10 of the 100
+              highest-grossing movies at the North American box office, adjusted
+              for ticket-price inflation. Lucas is considered to be one of the
+              most significant figures of the 20th-century New Hollywood
+              movement, and a pioneer of the modern blockbuster. Despite this,
+              he has remained an independent filmmaker away from Hollywood for
+              most of his career
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Arkan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
